@@ -1,0 +1,24 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html --no-cache --open",
+    "start": "npm run dev",
+    "build": "parcel build ./src/index.html --public-url ./ --no-cache -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "~9.8.6",
+    "cssnano": "~4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "~0.0.6",
+    "postcss": "~8.1.4",
+    "posthtml": "~0.13.4",
+    "posthtml-modules": "~0.6.2",
+    "sass": "~1.27.0"
+  }
+}
