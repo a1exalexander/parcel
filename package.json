@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel ./src/index.html --no-cache --open",
     "start": "npm run dev",
-    "build": "parcel build ./src/index.html --public-url ./ --no-cache -d build"
+    "build": "parcel build ./src/index.html --public-url ./ --no-cache"
   },
   "keywords": [],
   "author": "",
