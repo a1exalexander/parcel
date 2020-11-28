@@ -13,7 +13,7 @@ Parcel is a web application bundler, differentiated by its developer experience.
 ## Installation
 
 ```bash
-npx degit a1exalexander/parcel-static <project name>
+npx degit a1exalexander/parcel <project name>
 cd <project name>
 npm run dev
 ```
