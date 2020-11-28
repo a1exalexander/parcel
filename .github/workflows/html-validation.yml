@@ -9,10 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
-        with:
-          persist-credentials: false
+      - uses: actions/checkout@v2
 
       - name: Install and Build 📦
         run: |
@@ -22,4 +19,4 @@ jobs:
       - name: Validationg HTML5 🔍
         uses: Cyb3r-Jak3/html5validator-action@v0.4.2
         with:
-          root: ./
+          root: ./dist
